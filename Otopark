@@ -1,0 +1,139 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Otopark
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Araçlar İçin Tuşlayınız:");
+            Console.Write("1.Otomobil ");
+            Console.Write("2. Kamyon ");
+            Console.WriteLine("3. İş Makinesi ");
+
+            int aractipi = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Otoparkta Geçirilen süre(Maksimum 48 saat): ");
+            int saat =Convert.ToInt32(Console.ReadLine());
+            int ücret;
+            int? fatura =null;
+            //Otomobil Hesaplaması Yapınız.-------------------------->
+            if (aractipi == 1 && saat > 0 && saat <= 2)
+            {
+                ücret = 5;
+                fatura = ücret;
+            }
+            else if (aractipi == 1 && saat > 2 && saat <= 10)
+            {
+                ücret = saat + 3;
+                fatura = ücret;
+            }
+            else if (aractipi == 1 && saat > 10 && saat <= 24)
+            {
+                ücret = (saat * 0) + 13;
+                fatura = ücret;
+            }
+            else if (aractipi == 1 && saat > 24 && saat <= 26)
+            {
+                ücret = (13) + 5;
+                fatura = ücret;
+            }
+            else if (aractipi == 1 && saat > 26 && saat <= 34)
+            {
+                ücret = (13 + 5) + ((saat % 24) - 2);
+                fatura = ücret;
+            }
+            else if (aractipi == 1 && saat > 34 && saat <= 48)
+            {
+                ücret = 26;
+                fatura = ücret;
+            }
+
+            //Kamyon Hesaplaması Yapınız.-------------------------->
+
+            if (aractipi == 2 && saat > 0 && saat <= 2)
+            {
+                ücret = 8;
+                fatura = ücret;
+            }
+           
+            else if (aractipi == 2 && saat > 2 && saat <= 8)
+            {
+                ücret = 8 + 2 * (saat - 2);
+                fatura = ücret;
+            }
+            else if (aractipi == 2 && saat >= 8 && saat <= 24)
+            {
+                ücret = 20;
+                fatura = ücret;
+            }
+            else if (aractipi == 2 && saat > 24 && saat <= 26)
+            {
+                ücret = 20 + 8;
+                fatura = ücret;
+            }
+            else if (aractipi == 2 && saat >26 && saat <= 32)
+            {
+                ücret = ((20 + 8) + (saat % 24) - 2);
+                fatura = ücret;
+            }
+            else if (aractipi == 2 && saat > 32 && saat <= 48)
+            {
+                ücret = 40;
+                fatura = ücret;
+            }
+
+            // İş Makinesi Hesaplaması Yapınız.-------------------------->
+            if (aractipi == 3 && saat > 0 && saat <=2)
+            {
+                ücret = 12;
+                fatura = ücret;
+            }
+            else if (aractipi == 3 && saat < 2 && saat <= 8)
+            {
+                ücret = 12 + 3 * (saat - 2);
+                fatura = ücret;
+            }
+             else if (aractipi == 3 && saat >= 8 && saat <= 24)
+            {
+                ücret = 40;
+                fatura = ücret;
+            }
+            else if (aractipi == 3 && saat > 24 && saat <=26)
+            {
+                ücret = 40 + 12;
+
+            }
+            else if (aractipi == 3 && saat > 26 && saat <= 32)//düzelttttttttttttttt
+            {
+                ücret = ((40 + 12) + (saat % 24));
+                fatura = ücret;
+            }
+            else if (aractipi == 3 && saat > 32 && saat <= 48)
+            {
+                ücret=80;
+                fatura = ücret;
+            }
+                Console.WriteLine("Ödenecek Tutar: " + fatura);
+            
+
+            Console.WriteLine("Hayırlı Yolculuklar.");
+            Console.ReadLine();
+           
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
