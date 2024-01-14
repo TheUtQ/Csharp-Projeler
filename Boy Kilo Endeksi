@@ -1,0 +1,54 @@
+using System;
+namespace boy_kilo_endeksi
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Boyunuzu (cm olarak) yazınız: ");
+        double boyCm = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Kilonuzu (kg olarak) yazınız: ");
+        double kilo = Convert.ToDouble(Console.ReadLine());
+
+        Console.WriteLine("Cinsiyetinizi giriniz (Kadın için 'K', Erkek için 'E'): ");
+        char cinsiyet = Convert.ToChar(Console.ReadLine().ToUpper());
+
+        double idealKilo = HesaplaIdealKilo(boyCm, cinsiyet);
+
+        Console.WriteLine("Ideal Kilonuz: " + idealKilo + " kg");
+
+        if (kilo == idealKilo)
+        {
+            Console.WriteLine("Kilonuz ideal.");
+        }
+        else if (kilo < idealKilo)
+        {
+            Console.WriteLine("Kilonuz ideal kilonun altında.Kilo almalısınız..");
+        }
+        else
+        {
+            Console.WriteLine("Kilonuz ideal kilonun üstünde.Zayıflamalısınız..");
+        }
+    }
+
+    static double HesaplaIdealKilo(double boyCm, char cinsiyet)
+    {
+        double idealKilo = 0;
+
+        // İdeal kilo hesaplama formülü
+        if (cinsiyet == 'K')
+        {
+            idealKilo = 45.5 + 2.3 * ((boyCm / 2.54) - 60);
+        }
+        else if (cinsiyet == 'E')
+        {
+            idealKilo = 50 + 2.3 * ((boyCm / 2.54) - 60);
+        }
+        else
+        {
+            Console.WriteLine("Geçersiz cinsiyet bilgisi.");
+        }
+
+        return idealKilo;
+    }
+}
