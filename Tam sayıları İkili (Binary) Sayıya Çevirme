@@ -1,0 +1,28 @@
+using System;
+namespace convertobinary
+class Program
+{
+    static void Main()
+    {
+        Console.Write("İkili sayı girin: ");
+        string ikiliSayiStr = Console.ReadLine();
+
+        int onluDeger = 0;
+        int tabanDeger = 1;
+
+        for (int i = ikiliSayiStr.Length - 1; i >= 0; i--)
+        {
+            if (ikiliSayiStr[i] == '1')
+            {
+                onluDeger += tabanDeger;
+            }
+
+            tabanDeger *= 2;
+        }
+
+        Console.WriteLine($"İkili (Binary) Sayı: {ikiliSayiStr}");
+        Console.WriteLine($"Onlu (Decimal) Sayı: {onluDeger}");
+
+        Console.ReadLine();
+    }
+}
