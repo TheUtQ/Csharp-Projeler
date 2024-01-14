@@ -1,0 +1,31 @@
+using System;
+namespace Toplama_83
+class Program
+{
+    static void Main()
+    {
+        int toplam = 0;
+
+        Console.WriteLine("Sayıları girmeye başlayın. Toplamak için her sayı girişinden sonra Enter'a basın.");
+        Console.WriteLine("Toplamayı bitirmek için 83'i girin.");
+
+        while (true)
+        {
+            string girilenSayi = Console.ReadLine();
+
+            if (girilenSayi == "83")
+                break;
+
+            if (int.TryParse(girilenSayi, out int sayi))
+            {
+                toplam += sayi;
+            }
+            else
+            {
+                Console.WriteLine("Geçersiz giriş. Lütfen bir sayı girin.");
+            }
+        }
+
+        Console.WriteLine($"Toplam: {toplam}");
+    }
+}
