@@ -1,0 +1,36 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Bir sayı girin:");
+        int sayi = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("TEK’leri mi ÇİFT’leri mi toplamak istersiniz? (TEK/ÇİFT)");
+        string secim = Console.ReadLine().ToUpper();
+
+        if (secim == "TEK")
+        {
+            int tekToplam = 0;
+            for (int i = 1; i <= sayi; i += 2)
+            {
+                tekToplam += i;
+            }
+            Console.WriteLine($"1 ile {sayi} arasındaki TEK sayıların toplamı: {tekToplam}");
+        }
+        else if (secim == "ÇİFT")
+        {
+            int ciftToplam = 0;
+            for (int i = 2; i <= sayi; i += 2)
+            {
+                ciftToplam += i;
+            }
+            Console.WriteLine($"1 ile {sayi} arasındaki ÇİFT sayıların toplamı: {ciftToplam}");
+        }
+        else
+        {
+            Console.WriteLine("Geçersiz seçim. Lütfen 'TEK' veya 'ÇİFT' olarak girin.");
+        }
+    }
+}
