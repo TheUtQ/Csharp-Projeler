@@ -1,0 +1,32 @@
+using System;
+
+namespace randombool
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Bir isim giriniz: ");
+            string isim = Console.ReadLine();
+
+            char[] karakterler = isim.ToCharArray();
+            bool[] D = new bool[karakterler.Length];
+            Random rastgele = new Random();
+
+            for (int a = 0; a < karakterler.Length; a++)
+            {
+                int sayi;
+                do
+                {
+                    sayi = rastgele.Next(karakterler.Length);
+                } while (D[sayi] == true);
+
+                D[sayi] = true;
+                Console.Write(karakterler[sayi]);
+            }
+
+            Console.Write("\n\n\nPress any key to continue . . . ");
+            Console.ReadKey(true);
+        }
+    }
+}
