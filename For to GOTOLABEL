@@ -1,0 +1,38 @@
+using System;
+
+namespace gotolabelll
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            double[] a = { 150, 600, 700, 450, 850, 275, 950, 1500, 210, 368 };
+            int b = 0;
+
+        baslangic:
+
+            if (b <= 9)
+            {
+                double burs = a[b];
+
+                if (burs >= 500)
+                {
+                    Console.WriteLine(burs);
+                    b++;
+                    goto baslangic;
+                }
+
+                burs = (burs * 0.1) + burs;
+                burs = burs + 50;
+
+                Console.WriteLine(burs);
+                b++;
+                goto baslangic;
+            }
+
+            Console.Write("DEVAM ETMEK İÇİN BİR TUŞA BASINIZ. . . ");
+            Console.ReadKey(true);
+        }
+    }
+}
+
