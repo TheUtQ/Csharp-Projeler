@@ -54,7 +54,7 @@ namespace araba
                 }
             }
 
-            Console.Write("Press any key to continue . . . ");
+            Console.Write("Devam etmek için tıklayınız . . . ");
             Console.ReadKey(true);
         }
     }
