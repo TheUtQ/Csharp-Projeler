@@ -1,0 +1,67 @@
+using System;
+namespace tekcift
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("İki sayı girin:");
+        int sayi1, sayi2;
+
+        while (true)
+        {
+            Console.Write("İlk sayı: ");
+            string girilenSayi1 = Console.ReadLine();
+
+            Console.Write("İkinci sayı: ");
+            string girilenSayi2 = Console.ReadLine();
+
+            if (int.TryParse(girilenSayi1, out sayi1) && int.TryParse(girilenSayi2, out sayi2))
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Geçersiz giriş. Lütfen sayıları doğru bir şekilde girin.");
+            }
+        }
+
+        Console.WriteLine("TEK’leri mi ÇİFT’leri mi toplamak istersiniz? (TEK/ÇİFT)");
+        string secim = Console.ReadLine().ToUpper();
+
+        if (sayi1 > sayi2)
+        {
+            int temp = sayi1;
+            sayi1 = sayi2;
+            sayi2 = temp;
+        }
+
+        int toplam = 0;
+
+        if (secim == "TEK")
+        {
+            for (int i = sayi1; i <= sayi2; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    toplam += i;
+                }
+            }
+            Console.WriteLine($"{sayi1} ile {sayi2} arasındaki TEK sayıların toplamı: {toplam}");
+        }
+        else if (secim == "ÇİFT")
+        {
+            for (int i = sayi1; i <= sayi2; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    toplam += i;
+                }
+            }
+            Console.WriteLine($"{sayi1} ile {sayi2} arasındaki ÇİFT sayıların toplamı: {toplam}");
+        }
+        else
+        {
+            Console.WriteLine("Geçersiz seçim. Lütfen 'TEK' veya 'ÇİFT' olarak girin.");
+        }
+    }
+}
