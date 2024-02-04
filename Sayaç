@@ -1,0 +1,62 @@
+using Microsoft.SqlServer.Server;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+namespace Sayaç_Basit
+{
+    internal class Program
+    {
+
+        static void Main(string[] args)
+        {
+            for (int saat = 0; ; saat++)
+            {
+                for (int binler = 0; binler < 3; binler++)
+                {
+                    if (binler == 3 && binler > 3)
+                    {
+                        binler = 0;
+                        saat++;
+                    }
+
+                    for (int yüzler = 0; yüzler < 10; yüzler++)
+                    {
+                        if (yüzler == 10 && yüzler > 10)
+                        {
+                            yüzler = 0;
+                            binler++;
+                        }
+
+                        for (int onlar = 0; onlar < 6; onlar++)
+
+                        {
+                            if (onlar == 6 && onlar > 6)
+                            {
+                                onlar = 0;
+                                yüzler++;
+                            }
+                            for (int birler = 0; birler < 10; birler++)
+                            {
+                                if (birler == 10 && birler > 10)
+                                {
+                                    birler = 0;
+                                    onlar++;
+
+                                }
+                                Console.WriteLine(saat+":"+binler+yüzler + ":" + onlar + birler);
+                                Thread.Sleep(1000);
+                                Console.Clear();
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
