@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|c:\\users\\user\\desktop\\software\\projem\\utkfitnes\\adminpaneli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|solutionrelative:adminpaneli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\uyed\u00FCzenleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|solutionrelative:uyed\u00FCzenleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\adminpaneli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|solutionrelative:adminpaneli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\girisform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|solutionrelative:girisform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\girisform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|solutionrelative:girisform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\uyed\u00FCzenleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8213152B-A2EE-4E59-9C56-1D14C7900B67}|utkfitnes.csproj|solutionrelative:uyed\u00FCzenleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "girisform.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\girisform.cs",
+              "RelativeDocumentMoniker": "girisform.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\girisform.cs",
+              "RelativeToolTip": "girisform.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAD4vxgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:20:44.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPaneli.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\AdminPaneli.cs",
+              "RelativeDocumentMoniker": "AdminPaneli.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\AdminPaneli.cs",
+              "RelativeToolTip": "AdminPaneli.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:17:10.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "girisform.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\girisform.cs",
+              "RelativeDocumentMoniker": "girisform.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Projem\\utkfitnes\\girisform.cs [Tasar\u0131m]",
+              "RelativeToolTip": "..\\..\\..\\Projem\\utkfitnes\\girisform.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:16:01.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPaneli.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\AdminPaneli.cs",
+              "RelativeDocumentMoniker": "AdminPaneli.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\AdminPaneli.cs [Tasar\u0131m]",
+              "RelativeToolTip": "AdminPaneli.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T09:15:58.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UyeD\u00FCzenleme.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\UyeD\u00FCzenleme.cs",
+              "RelativeDocumentMoniker": "UyeD\u00FCzenleme.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\UyeD\u00FCzenleme.cs",
+              "RelativeToolTip": "UyeD\u00FCzenleme.cs",
+              "ViewState": "AgIAAG8CAAAAAAAAAAAUwH4CAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T12:27:25.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UyeD\u00FCzenleme.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\UyeD\u00FCzenleme.cs",
+              "RelativeDocumentMoniker": "UyeD\u00FCzenleme.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Software\\Projem\\utkfitnes\\UyeD\u00FCzenleme.cs [Tasar\u0131m]",
+              "RelativeToolTip": "UyeD\u00FCzenleme.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T13:45:52.136Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
